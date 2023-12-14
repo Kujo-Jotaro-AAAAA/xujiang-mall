@@ -28,7 +28,7 @@ const imgSrc = {
 };
 const menu = [
   {
-    name: "男人",
+    name: "男人模型",
     child: [
       ...imgSrc["001"],
       ...imgSrc["002"],
@@ -41,7 +41,7 @@ const menu = [
     ],
   },
   {
-    name: "女人",
+    name: "女人模型",
     child: [
       ...imgSrc["009"],
       ...imgSrc["010"],
@@ -53,7 +53,7 @@ const menu = [
     ],
   },
   {
-    name: "小孩",
+    name: "小孩模型",
     child: [
       ...imgSrc["016"],
       ...imgSrc["017"],
@@ -62,16 +62,14 @@ const menu = [
     ],
   },
   {
-    name: "老人",
+    name: "老人模型",
     child: [
-      ...imgSrc["016"],
-      ...imgSrc["017"],
-      ...imgSrc["018"],
-      ...imgSrc["019"],
+      ...imgSrc["014"],
+      ...imgSrc["015"],
     ],
   },
   {
-    name: "全部",
+    name: "全部模型",
     child: [
       ...Object.keys(imgSrc)
         .map((key) => imgSrc[key].join(","))

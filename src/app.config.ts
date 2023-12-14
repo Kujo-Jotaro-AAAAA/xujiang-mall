@@ -1,4 +1,5 @@
 export default defineAppConfig({
+  lazyCodeLoading: "requiredComponents",
   pages: ["pages/index/index", "pages/introduce/index"],
   window: {
     backgroundTextStyle: "light",
@@ -9,16 +10,16 @@ export default defineAppConfig({
   tabBar: {
     list: [
       {
-        pagePath: "pages/index/index",
+        pagePath: "pages/introduce/index",
         iconPath: "static/tabbar/home.png",
-        selectedIconPath: "static/tabbar/home-active.png",
+        selectedIconPath: "static/tabbar/home.png",
         text: "首页",
       },
       {
-        pagePath: "pages/introduce/index",
-        iconPath: "static/tabbar/introduce.png",
-        selectedIconPath: "static/tabbar/introduce-active.png",
-        text: "简介",
+        pagePath: "pages/index/index",
+        iconPath: "static/tabbar/shop.png",
+        selectedIconPath: "static/tabbar/shop.png",
+        text: "商城",
       },
     ],
   },
