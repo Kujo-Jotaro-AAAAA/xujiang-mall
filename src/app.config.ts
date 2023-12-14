@@ -11,8 +11,8 @@ export default defineAppConfig({
     list: [
       {
         pagePath: "pages/introduce/index",
-        iconPath: "static/tabbar/home.png",
-        selectedIconPath: "static/tabbar/home.png",
+        iconPath: "static/tabbar/house.png",
+        selectedIconPath: "static/tabbar/house.png",
         text: "首页",
       },
       {
